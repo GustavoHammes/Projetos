@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;*/
+
+  /*background: color image repeat position/size*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+#container {
+  width: 360px;
+  margin: 56px auto 0px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  /*Em img, não é possível ajustar a margem automaticamente pois a imagem está inline, para isso é necessário usar display:block; para que mude a imagem para block e assim vc consiga ajustar a margem*/
+  /*display: block;*/
+  width: 112px;
+  /*margin: auto;*/
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+}
+
+/* Design Site  */
+
+position: absolute;
+width: 1464px;
+height: 1036px;
+left: -24px;
+top: -12px;
+
+/* Desktop */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #fafafa;
+
+/* Vídeo */
+
+position: absolute;
+width: 1000px;
+height: 700px;
+left: 59px;
+top: 220px;
+
+background: #d9d9d9;
+
+/* Cabeçalho Desktop */
+
+position: absolute;
+width: 1440px;
+height: 150px;
+left: 0px;
+top: 0px;
+
+background: #15a0b8;
+
+/* Botão Login */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 250px;
+height: 75px;
+left: 1173px;
+top: 37px;
+
+background: #fc9f00;
+border: 1px solid #0e648c;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+
+/* Login */
+
+position: absolute;
+width: 125px;
+height: 32.5px;
+left: 1236px;
+top: 54px;
+
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #ffffff;
+
+/* MH1 1 */
+
+position: absolute;
+width: 256px;
+height: 175px;
+left: -24px;
+top: -12px;
+
+background: url(MH1);
