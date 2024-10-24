@@ -12,7 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(./assets/firewatch-minimal-jx-5120x2880.jpg) no-repeat;
+    background-color: #f4f4f4;
+    /*background: url(./assets/firewatch-minimal-jx-5120x2880.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
 
@@ -24,7 +25,7 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    /* background: seagreen; */
+    background: #15a0b4;
     display: flex;
     justify-content: space-between ;
     align-items: center;
@@ -34,12 +35,15 @@ header{
     font-size: 2em;
     color: black;
     user-select: none;
+    width: 33%;
+    height: auto;
 }
+
 
 .navigation a{
     position: relative;
     font-size: 1.1em;
-    color: black;
+    color: #0A4374;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -52,7 +56,7 @@ header{
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: aqua;
+    background: black;
     border-radius: 5px;
     transform-origin: right;
     transform: scaleX(0);
@@ -67,7 +71,7 @@ header{
 .navigation .btnlogin-popup{
     width: 130px;
     height: 50px;
-    background: transparent ;
+    background: #FC9F00 ;
     /* border: 2px solid #fff; */
     border-radius: 20px;
     outline: none;
@@ -80,7 +84,7 @@ header{
 }
 
 .navigation .btnlogin-popup:hover{
-    background: gray;
+    background: #e1e1e0;
     color: black;
 }
 
@@ -120,6 +124,7 @@ header{
 .wrapper .form-box.login{
     transition: .18s ease;
     transform: translateX(0);
+    background-color: #15a0b4;
 }
 
 .wrapper.active .form-box.login{
@@ -133,6 +138,7 @@ header{
    position: absolute;
    transition: none;
    transform: translateX(400px);
+   background-color: #15a0b4;
 }
 
 .wrapper.active .form-box.register{
